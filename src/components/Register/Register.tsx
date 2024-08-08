@@ -4,7 +4,7 @@ import styles from './register.module.scss'
 
 import googleIcon from '@/assets/img/social/google.svg'
 
-export default () => {
+export const Register = () => {
   return (
     <section className={styles.register}>
       <button className={styles.link}>

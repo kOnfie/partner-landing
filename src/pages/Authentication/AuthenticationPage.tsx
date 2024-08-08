@@ -1,4 +1,4 @@
-import Register from '@/components/Register/Register'
+import { Register } from '@/components/Register/Register'
 import { SignUp } from '@/components/Signup/Signup'
 
 import logoIcon from '@/assets/img/logo.svg'
