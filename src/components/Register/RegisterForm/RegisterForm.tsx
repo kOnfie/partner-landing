@@ -2,9 +2,9 @@ import { FC } from 'react'
 import { Link } from 'react-router-dom'
 
 import { PasswordInput } from './PasswordInput'
-import { Button } from '@/temp/ui/Button/Button'
-import Input from '@/temp/ui/Input/Input'
-import { CheckboxAction } from '@/temp/ui/CheckboxAction/CheckboxAction'
+import { Button } from '@/components/ui/Button/Button'
+import Input from '@/components/ui/Input/Input'
+import { CheckboxAction } from '@/components/ui/CheckboxAction/CheckboxAction'
 
 import personIcon from '@/assets/img/personIcon.svg'
 

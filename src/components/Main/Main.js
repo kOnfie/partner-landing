@@ -1,4 +1,4 @@
-import React from "react";
+
 import Input from "../ui/Input/Input";
 import SectionTemplate from "../ui/SectionTemplate/SectionTemplate";
 import UserCommentCard from "../ui/UserCommentCard/UserCommentCard";

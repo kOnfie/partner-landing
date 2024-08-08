@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './OfferBanner.scss'
 import stars from '../../assets/img/stars.svg'
 import emoji from '../../assets/img/emoji.svg'
