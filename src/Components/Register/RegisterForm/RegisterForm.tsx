@@ -1,11 +1,12 @@
 import { FC } from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from '../../ui/Button/Button'
 
-import Input from '../../ui/Input/Input'
 import { PasswordInput } from './PasswordInput'
+import { Button } from '@/components/ui/Button/Button'
+import Input from '@/components/ui/Input/Input'
+import { CheckboxAction } from '@/components/ui/CheckboxAction/CheckboxAction'
 
-import personIcon from '../../../assets/img/personIcon.svg'
+import personIcon from '@/assets/img/personIcon.svg'
 
 import styles from './registerForm.module.scss'
 
@@ -23,18 +24,15 @@ export const RegisterForm: FC = () => {
         </div>
 
         <div className={styles.form_checkbox}>
-          <Input type="checkbox" placeholder="checkbox" />
-          <span className={styles['form_checkbox-span']}></span>
-
-          <label htmlFor="checkbox">
+          <CheckboxAction classSpan={styles['form_checkbox-span']}>
             <p>
               Я даю <span>згоду</span> на обробку власних данних
             </p>
-          </label>
+          </CheckboxAction>
         </div>
 
         <div className={styles.form_tabs}>
-          <Button>Зареєструватись</Button>
+          <Button type="submit">Зареєструватись</Button>
           <Link to="/authentication?mode=signup">Увійти</Link>
         </div>
       </form>

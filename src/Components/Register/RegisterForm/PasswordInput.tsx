@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-import Input from '../../ui/Input/Input'
+import Input from '@/components/ui/Input/Input'
 
-import lockIcon from '../../../assets/img/lockIcon.svg'
-import eyeIcon from '../../../assets/img/eyeIcon.svg'
+import lockIcon from '@/assets/img/lockIcon.svg'
+import eyeIcon from '@/assets/img/eyeIcon.svg'
 
 export const PasswordInput = () => {
   const [isActivePassword, setIsActivePassword] = useState<boolean>(true)

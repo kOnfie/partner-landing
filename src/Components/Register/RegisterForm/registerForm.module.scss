@@ -70,6 +70,8 @@
       position: absolute;
       left: -4px;
       z-index: 2;
+      
+      cursor: pointer;
     }
 
     & input:checked + &-span::before {

@@ -1,11 +1,17 @@
-import { FC, ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 import styles from './button.module.scss'
 
-interface ButtonProps {
+export const Button = ({
+  children,
+  type,
+}: {
   children: ReactNode
-}
-
-export const Button: FC<ButtonProps> = ({ children }) => {
-  return <button className={styles.button}>{children}</button>
+  type: 'button' | 'submit' | 'reset'
+}) => {
+  return (
+    <button type={type} className={styles.button}>
+      {children}
+    </button>
+  )
 }

@@ -1,16 +1,15 @@
-import React from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from 'react-router-dom'
 
-import HomePage from "../pages/Home/HomePage";
-import AuthenticationPage from "../pages/Authentication/AuthenticationPage";
+import HomePage from '@/pages/Home/HomePage'
+import AuthenticationPage from '@/pages/Authentication/AuthenticationPage'
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <HomePage />,
   },
   {
-    path: "/authentication",
+    path: '/authentication',
     element: <AuthenticationPage />,
   },
-]);
+])

@@ -8,7 +8,7 @@ interface InputProps {
 }
 
 const Input: FC<InputProps> = ({ type, placeholder }) => {
-  return <input type={type} id={type} placeholder={placeholder} className={styles.input} />
+  return <input type={type} id={type} placeholder={placeholder} className={styles.input} required />
 }
 
 export default Input
