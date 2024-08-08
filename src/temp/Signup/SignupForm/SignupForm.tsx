@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 
-import { Button } from '@/components/ui/Button/Button'
-import { CheckboxAction } from '@/components/ui/CheckboxAction/CheckboxAction'
-import Input from '@/components/ui/Input/Input'
+import { Button } from '@/temp/ui/Button/Button'
+import { CheckboxAction } from '@/temp/ui/CheckboxAction/CheckboxAction'
+import Input from '@/temp/ui/Input/Input'
 
 import styles from './signupForm.module.scss'
 

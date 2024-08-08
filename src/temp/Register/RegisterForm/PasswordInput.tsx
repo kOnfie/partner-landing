@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import Input from '@/components/ui/Input/Input'
+import Input from '@/temp/ui/Input/Input'
 
 import lockIcon from '@/assets/img/lockIcon.svg'
 import eyeIcon from '@/assets/img/eyeIcon.svg'

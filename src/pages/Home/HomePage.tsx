@@ -1,5 +1,5 @@
 import Parthners from '@/Сomponents/ui/Parthners/Parthners'
-import Banner from '@/components/Banner/Banner'
+import Banner from '@/temp/Banner/Banner'
 import Footer from '@/Сomponents/Footer/Footer'
 import Header from '@/Сomponents/Header/Header'
 import Main from '@/Сomponents/Main/Main'
