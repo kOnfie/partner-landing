@@ -1,5 +1,5 @@
-import Register from '@/components/Register/Register'
-import { SignUp } from '@/components/Signup/Signup'
+import Register from '@/Сomponents/Register/Register'
+import { SignUp } from '@/Сomponents/Signup/Signup'
 
 import logoIcon from '@/assets/img/logo.svg'
 
